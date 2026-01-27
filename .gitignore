@@ -1,0 +1,29 @@
+# --- Dependencies ---
+node_modules/
+
+# --- Environment Variables (CRITICAL SECURITY) ---
+.env
+.env.local
+.env.*
+
+# --- Build Outputs (Frontend) ---
+dist/
+build/
+.output/
+
+# --- Server Uploads (Don't commit test invoices) ---
+server/uploads/*
+!server/uploads/.gitkeep
+
+# --- OS System Files ---
+.DS_Store
+Thumbs.db
+
+# --- IDE Files ---
+.vscode/
+.idea/
+
+# --- Logs ---
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
