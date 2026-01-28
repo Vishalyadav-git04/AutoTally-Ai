@@ -117,3 +117,5 @@ Restart the frontend server (npm run dev) to reload the Tailwind config.
 
 ## 📄 License
 MIT License. Free for educational and personal use.
+
+![alt text](image.png)
